@@ -1,0 +1,39 @@
+:root {
+  font-size: 1rem;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1060px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid gainsboro;
+}
+
+main {
+  height: 100vh;
+  padding: 30px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  border-left: 3px solid darkblue;
+  padding-left: 10px;
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+section > img {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
